@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int a;
+	int b;
+	cout << "Enter two numbers " << endl;
+	cin >> a >> b;
+
+  cout << "The result of Addition is = " << a + b << endl;
+	cout << "The result of Subtraction is = " << a - b << endl;
+	cout << "The result of Multiplication is = " << a * b << endl;
+	cout << "The result of Division is = " << a / b << endl;
+	cout << "The result of Remainder is = " << a % b << endl;
+}
