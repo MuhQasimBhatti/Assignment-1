@@ -1,0 +1,18 @@
+  
+
+#include"iostream"
+using namespace std;
+
+int main()
+{
+	int a,b,c,d;
+	cout << "Please enter total units consumed" << endl;
+	cin >> a;
+	b = a * 3;
+	c = (a * 3.5);
+	d = c + (0.05*c);
+	if (a < 301)
+		cout << "Your electricity bill is " << b;
+	else
+		cout << "  " << d << endl;
+}
