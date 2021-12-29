@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	
+	
+	cout << "Please enter the value of a and b" << endl;
+	cin >> a>>b;
+	cout<<"Result of (a+b)^2 ="<<(a+b)*(a+b)<<endl;
+	cout << "Result of 7a+2=" << (7 * a) + 2 << endl;
+	if (a < 0)
+		cout << "The result of |A| =" << -a;
+	else
+		cout << "The result of |A|=" << a;
+}
