@@ -24,6 +24,15 @@ int main()
 	cin >> e;
 	cout << "In which university you are studying" << endl;
 	cin >> f;
-	cin >> f;
+	
+	cout<<endl<<endl;
+	
+	cout<<"Name :<<a<<endl;
+	cout<<"Father Name :<<b<<endl;
+	cout<<"Gender :<<c<<endl;
+	cout<<"Address :<<d<<endl;
+	cout<<"Class :"<<e<<endl;
+	cout<<"Unversity :"<<f<<endl;
+	
 
 }
