@@ -1,0 +1,27 @@
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b, c, d;
+	cout << "Enter marks of your first subject" << endl;
+	cin >> a;
+	cout << "Enter marks of your second subject" << endl;
+	cin >> b;
+	cout << "Enter marks of your third subject" << endl; 
+	cin>> c;
+	d = (a + b + c) / 3;
+	cout << "Your Average " << d << endl;
+	if (d > 79)
+		cout << "Your grade is A" << endl;
+	else
+		if (d > 50)
+			cout << "Your grade is B" << endl;
+		else
+			if (d > 32)
+				cout << "Your grade is C" << endl;
+			else
+				cout << "Your grade is F" << endl;
+
+}
