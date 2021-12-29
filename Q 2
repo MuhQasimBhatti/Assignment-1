@@ -1,0 +1,12 @@
+// Assignmnt 1 Question 2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{	
+	int a;
+	cout << "Please Enter your age in years" << endl;
+	cin >> a;
+	cout << "your age in months is " << a * 12;
+}
