@@ -1,0 +1,29 @@
+// Assignment 1 Q 1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	string a;
+	string b;
+	string c;
+	string d;
+	string e;
+	string f;
+
+	cout << "Please enter your name" << endl;
+	cin >> a;
+	cout << "Please enter your father's name" << endl;
+	cin >> b;
+	cout << "Please enter your gender" << endl;
+	cin >> c;
+	cout << "Please enter your address" << endl;
+	cin >> d;
+	cout << "Please enter your class" << endl;
+	cin >> e;
+	cout << "In which university you are studying" << endl;
+	cin >> f;
+	cin >> f;
+
+}
